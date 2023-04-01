@@ -9,10 +9,6 @@ Original file is located at
 # First we will bring in one of the GremCat libraries
 
 This is the library that provides the `get_commits` function, which will translate a portion of a project database into a pandas `DataFrame`.
-
-%%capture
-!pip install uo-puddles
-from uo_puddles.gremcat_df import *
 """
 
 import os, sys
