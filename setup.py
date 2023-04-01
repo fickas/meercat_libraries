@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="uo_puddles",
-    version="1.87",    #also change pypi_version variable at top of library
+    name="meercat_libraries",
+    version="1.0",    #also change pypi_version variable at top of library
     author="Stephen Fickas",
     author_email="stephenfickas@gmail.com",
     description="for cis423 class",
@@ -18,7 +18,7 @@ setuptools.setup(
     ],
     #package_dir={"": "uo_puddles"},
     #packages=setuptools.find_packages(where="uo_puddles"),
-    packages=['uo_puddles'],
+    packages=['meercat_libraries'],
 
     python_requires=">=3.6",
 )
