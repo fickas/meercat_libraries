@@ -8,7 +8,7 @@ setuptools.setup(
     version="1.0",    #also change pypi_version variable at top of library
     author="Stephen Fickas",
     author_email="stephenfickas@gmail.com",
-    description="for cis423 class",
+    description="for meeercat",
     long_description=long_description,
     long_description_content_type="text/markdown",
     classifiers=[
